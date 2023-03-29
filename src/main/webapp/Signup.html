@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Signup</title>
+</head>
+<style>
+#a{
+    text-decoration: none;
+}
+#b{
+text-decoration: none;
+}
+</style>
+<body>
+<h1>Welcome to Signup Page</h1>
+    <fieldset style="border: 1px solid blue; width: 300px; background-color: aliceblue;">
+<form action="customersignup" method="post">
+    <table>
+<tr><td>Name:</td><td><input type="text" name="name" placeholder="Enter Name" required="required"></td></tr>
+<tr><td>Mobile:</td><td><input type="number" name="mobile" placeholder="Enter Mobile No" required="required"></td></tr>
+<tr><td>Email:</td><td><input type="email" name="email" placeholder="Enter Email" required="required"></td></tr>
+<tr><td>Password:</td><td><input type="password" name="password" placeholder="Enter Pasword" required="required"></td></tr>
+<tr>
+    <td>Gender:</td><td>
+        <input type="radio" name="gender" value="male" required="required">Male
+               <input type="radio" name="gender" value="female">Female
+    </td>
+</tr>
+<tr><td>Date of birth:</td><td><input type="date" name="dob" required="required"></td></tr>
+&nbsp;
+<tr><td><button type="reset">Cancel</button></td><td><button>Signup</button></td></tr>
+</table>
+</form><br><br>
+</fieldset>>
+
+<a href="Login.html" id="a">Already have an account click here</a>
+<br><br>
+
+<button><a href="Home.html" id="b">Home</a></button>
+</body>
+</html>
